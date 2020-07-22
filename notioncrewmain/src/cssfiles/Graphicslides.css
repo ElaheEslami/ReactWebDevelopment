@@ -1,0 +1,205 @@
+.containerGraphic-slides {
+	position: relative;
+	padding: 0 6%;
+	min-height: 100vh;
+}
+
+.containerGraphic-slides:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(18, 112, 163, 0.85);
+	z-index: -2;
+}
+
+.headerGraphic-slides {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2% 0;
+	top: 0;
+}
+
+.headerGraphic-slides .logo {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #1270a3;
+	text-decoration: none;
+	font-size: 3vw;
+}
+.headerGraphic-slides .logo span {
+	color: #1270a3;
+}
+
+.contentGraphic-slides {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0;
+}
+.containerGraphic-slides .bannertextGraphic-slides {
+	position: relative;
+	max-width: 50%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+.contentGraphic-slides .bannertextGraphic-slides h2 {
+	font-size: 3.5vw;
+	text-transform: uppercase;
+	font-weight: 800;
+	line-height: 1.2em;
+	color: #222222;
+	margin: 1px;
+}
+.contentGraphic-slides .bannertextGraphic-slides p {
+	font-size: 1.5vw;
+	color: #33333;
+	line-height: 1.8em;
+	margin: 20px 0;
+}
+
+.contentGraphic-slides .imgbannerGraphic-slides {
+	position: relative;
+	width: 50%;
+	height: 60vh;
+}
+
+.contentGraphic-slides .imgbannerGraphic-slides img {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: 0.5s;
+}
+.icons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 50px 0;
+}
+.icons .social,
+.icons .controls {
+	position: relative;
+	display: flex;
+}
+
+.icons .social li {
+	list-style: none;
+	margin-right: 30px;
+	padding-bottom: 40px;
+	left: 10px;
+}
+.icons .social li img {
+	display: inline-block;
+	max-height: 24px;
+	transition: 0.5s ease-in-out;
+}
+
+.icons .social li:hover img {
+	transform: translateY(-10px);
+}
+.icons .controls li {
+	list-style: none;
+	padding-bottom: 15px;
+	padding-right: 45px;
+	margin-left: 15px;
+	cursor: pointer;
+	filter: invert(1);
+	transition: 0.5s ease-in-out;
+}
+.icons .controls li:hover {
+	opacity: 0.5;
+}
+@media only screen and (min-width: 200px) {
+	.contentGraphic-slides .bannertextGraphic-slides p {
+		font-size: 3vw;
+	}
+	.containerGraphic-slides .bannertextGraphic-slides {
+		width: 100%;
+		max-width: 100%;
+		margin: 2%;
+	}
+
+	.contentGraphic-slides {
+		flex-direction: column-reverse;
+	}
+	.contentGraphic-slides .imgbannerGraphic-slides {
+		width: 100%;
+		height: 50vh;
+	}
+}
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+	.containerGraphic-slides:before {
+		width: 100%;
+		height: 50%;
+	}
+}
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+	.containerGraphic-slides .bannertextGraphic-slides {
+		width: 50%;
+	}
+	.contentGraphic-slides .bannertextGraphic-slides p {
+		font-size: 2vw;
+	}
+}
+
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+	.contentGraphic-slides {
+		flex-direction: row;
+	}
+	.contentGraphic-slides .imgbannerGraphic-slides {
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 480px) and (orientation: portrait) {
+	.containerGraphic-slides:before {
+		width: 100%;
+		height: 50%;
+	}
+	.contentGraphic-slides {
+		flex-direction: row;
+	}
+	.contentGraphic-slides .imgbannerGraphic-slides {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+	.containerGraphic-slides .bannertextGraphic-slides {
+		width: 100%;
+		max-width: 100%;
+	}
+	.containerGraphic-slides:before {
+		width: 100%;
+		height: 50%;
+	}
+	.contentGraphic-slides {
+		flex-direction: column-reverse;
+	}
+	.contentGraphic-slides .imgbannerGraphic-slides {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+	.containerGraphic-slides .bannertextGraphic-slides {
+		width: 50%;
+		max-width: 50%;
+	}
+	.contentGraphic-slides .bannertextGraphic-slides p {
+		font-size: 1.3vw;
+	}
+}
+
+@media only screen and (min-width: 992px) and (orientation: portrait) {
+	.containerGraphic-slides:before {
+		width: 100%;
+		height: 50%;
+	}
+}
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+}

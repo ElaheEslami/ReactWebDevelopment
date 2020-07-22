@@ -1,0 +1,228 @@
+.section5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #115373;
+	/* background: linear-gradient(#5680e9, #84ceeb, #5ab9ea, #c1c8e4, #8860d0); */
+}
+
+.container5 {
+	width: 80%;
+	padding: 2%;
+}
+
+.container5 h2 {
+	width: 100%;
+	color: white;
+	font-size: 3rem;
+	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
+		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	text-align: center;
+	/* margin-bottom: 10px; */
+	margin-top: 10px;
+}
+
+.container5 .row100 {
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(autofit, minmax(250px, 1fr));
+}
+
+.container5 .row100 .col {
+	position: relative;
+	width: 100%;
+	padding: 0 10px;
+	margin: 30px 10px;
+	transition: 0.5s;
+	margin-top: 0;
+}
+
+.container5 .row100 .inputbox {
+	position: relative;
+	width: 100%;
+	height: 40px;
+	color: #1270a3;
+}
+.container5 .row100 .inputbox input,
+.container5 .row100 .inputbox.textarea textarea {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	outline: none;
+	font-size: 1rem;
+	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
+		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	padding: 0 10px;
+	z-index: 1;
+	color: white;
+}
+
+.container5 .row100 .inputbox .text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 40px;
+	font-size: 1rem;
+	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
+		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	padding: 0 18px;
+	display: block;
+	transition: 0.5s;
+	pointer-events: none;
+	color: white;
+}
+
+.container5 .row100 .inputbox input:focus + .text,
+.container5 .row100 .inputbox input:valid + .text {
+	top: -35px;
+	left: -10px;
+}
+
+.container5 .row100 .inputbox .line {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #1270a3;
+	transition: 0.5s;
+	border-radius: 2px;
+	pointer-events: none;
+}
+
+.container5 .row100 .inputbox input:focus ~ .line,
+.container5 .row100 .inputbox input:valid ~ .line {
+	height: 100%;
+}
+.container5 .row100 .inputbox.textarea {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	padding: 10px 0;
+}
+
+.container5 .row100 .inputbox.textarea textarea {
+	height: 100%;
+	resize: none;
+}
+
+.container5 .row100 .inputbox textarea:focus + .text,
+.container5 .row100 .inputbox textarea:valid + .text {
+	top: -35px;
+	left: -10px;
+}
+
+.container5 .row100 .inputbox textarea:focus ~ .line,
+.container5 .row100 .inputbox textarea:valid ~ .line {
+	height: 100%;
+}
+
+.submit {
+	border: none;
+	padding: 7px 35px;
+	cursor: pointer;
+	outline: none;
+	background: #1270a3;
+	color: #fff;
+	font-size: 18px;
+	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
+		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	border-radius: 2px;
+}
+.submit:hover {
+	background: #4ea9da;
+}
+@media only screen and (min-width: 200px) and (orientation: portrait) {
+}
+@media only screen and (min-width: 200px) and (orientation: landscape) {
+}
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+	.container5 h2 {
+		width: 100%;
+		color: white;
+		font-size: 2rem;
+		font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+			Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+			Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+			Noto Color Emoji;
+		text-align: center;
+		/* margin-bottom: 10px; */
+		margin-top: 10px;
+	}
+}
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+	.container5 .row100 {
+		display: flex;
+	}
+}
+
+@media only screen and (min-width: 480px) and (orientation: portrait) {
+}
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+	.container5 h2 {
+		font-size: 7vw;
+	}
+	.container5 .row100 .inputbox .text {
+		font-size: 3.5vw;
+	}
+	.container5 .row100 {
+		display: grid;
+	}
+	.submit {
+		border: none;
+		padding: 15px 35px;
+		cursor: pointer;
+		outline: none;
+		background: #1270a3;
+		color: #fff;
+		font-size: 28px;
+		font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+			Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+			Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+			Noto Color Emoji;
+		border-radius: 2px;
+	}
+}
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+	.container5 h2 {
+		font-size: 4vw;
+	}
+	.container5 .row100 .inputbox .text {
+		font-size: 2vw;
+	}
+	.container5 .row100 {
+		display: grid;
+	}
+	.submit {
+		border: none;
+		padding: 10px 45px;
+		cursor: pointer;
+		outline: none;
+		background: #1270a3;
+		color: #fff;
+		font-size: 18px;
+		font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+			Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+			Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+			Noto Color Emoji;
+		border-radius: 2px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (orientation: portrait) {
+}
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+}

@@ -1,0 +1,60 @@
+.projectsGraphicBanner {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.projectsGraphicBanner img {
+	position: absolute;
+
+	left: 25%;
+
+	width: 50%;
+
+	height: auto;
+
+	text-align: center;
+
+	vertical-align: middle;
+}
+.projectsGraphicBanner .graphicContent span {
+	color: #222222;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+}
+
+.projectsGraphicBanner .graphicContent .text1 {
+	color: #222222;
+	font-size: 5vw;
+	font-weight: 700;
+	letter-spacing: 8px;
+	margin-bottom: 10px;
+	background: white;
+	position: relative;
+	animation-name: text;
+	animation-duration: 8s;
+}
+.projectsGraphicBanner .graphicContent .text2 {
+	font-size: 3vw;
+	font-weight: 600;
+	margin-bottom: -100px;
+}
+
+@keyframes text {
+	0% {
+		color: white;
+		margin-bottom: -40px;
+	}
+	30% {
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+	85% {
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+}

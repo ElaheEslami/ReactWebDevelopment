@@ -1,0 +1,58 @@
+{
+  "name": "parallaxtest",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.17",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^4.4.1",
+    "framer-motion": "^1.10.3",
+    "jquery": "^3.5.1",
+    "radium": "^0.26.0",
+    "react": "^16.13.1",
+    "react-animation": "^1.2.2",
+    "react-bootstrap": "^1.0.1",
+    "react-burger-menu": "^2.6.17",
+    "react-dom": "^16.13.1",
+    "react-fade-in": "^1.1.0",
+    "react-fade-opacity": "^2.0.0",
+    "react-flipcard": "^0.2.1",
+    "react-horizontal-scrolling-menu": "^0.7.7",
+    "react-player": "^2.0.1",
+    "react-responsive": "^8.0.3",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "3.4.1",
+    "react-simple-image-slider": "^1.0.3",
+    "react-slick": "^0.26.1",
+    "react-spring": "^8.0.27",
+    "react-sticky": "^6.0.3",
+    "react-sticky-header": "^0.2.0",
+    "redux": "^4.0.5",
+    "slick-carousel": "^1.8.1",
+    "video-react": "^0.14.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

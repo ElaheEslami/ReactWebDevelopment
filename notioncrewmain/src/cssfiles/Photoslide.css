@@ -1,0 +1,212 @@
+.Photo-slide {
+	position: relative;
+	padding: 0 6%;
+	min-height: 100vh;
+}
+
+.Photo-slide:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background: #f2f2f2;
+	z-index: -2;
+}
+.PHOTOSLIDE {
+	position: relative;
+	padding: 100px 5px 100px 150px;
+	box-sizing: border-box;
+}
+
+.headerPhoto-slide {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2% 0;
+	top: 0;
+}
+
+.headerPhoto-slide .logo {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #0b3a42;
+	text-decoration: none;
+	font-size: 3vw;
+}
+.headerPhoto-slide .logo span {
+	color: #20c5baf2;
+}
+
+.contentPhoto-slide {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0;
+}
+.containerPhoto-slide .bannertextPhoto-slide {
+	position: relative;
+	max-width: 50%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+.contentPhoto-slide .bannertextPhoto-slide h2 {
+	font-size: 3.5vw;
+	text-transform: uppercase;
+	font-weight: 800;
+	line-height: 1.2em;
+	color: #ffbb01;
+	margin: 1px;
+}
+.contentPhoto-slide .bannertextPhoto-slide p {
+	font-size: 1.5vw;
+	color: #0b3a42;
+	line-height: 1.8em;
+	margin: 20px 0;
+}
+
+.contentPhoto-slide .imgbannerPhoto-slide {
+	position: relative;
+	width: 50%;
+	height: 60vh;
+}
+
+.contentPhoto-slide .imgbannerPhoto-slide img {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: 0.5s;
+}
+.icons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 50px 0;
+}
+.icons .social,
+.icons .controls {
+	position: relative;
+	display: flex;
+}
+
+.icons .social li {
+	list-style: none;
+	margin-right: 30px;
+	padding-bottom: 40px;
+	left: 10px;
+	/* opacity: 0;
+	animation: fadeInBottom 0.5s linear forwards; */
+}
+.icons .social li img {
+	display: inline-block;
+	max-height: 24px;
+	transition: 0.5s ease-in-out;
+}
+
+.icons .social li:hover img {
+	transform: translateY(-10px);
+}
+.icons .controls li {
+	list-style: none;
+	padding-bottom: 15px;
+	padding-right: 45px;
+	margin-left: 15px;
+	cursor: pointer;
+	filter: invert(1);
+	transition: 0.5s ease-in-out;
+}
+.icons .controls li:hover {
+	opacity: 0.5;
+}
+@media only screen and (min-width: 200px) {
+	.contentPhoto-slide .bannertextPhoto-slide p {
+		font-size: 3vw;
+	}
+	.Photo-slide .bannertextPhoto-slide {
+		width: 100%;
+		max-width: 100%;
+		margin: 2%;
+	}
+
+	.contentPhoto-slide {
+		flex-direction: column-reverse;
+	}
+	.contentPhoto-slide .imgbannerPhoto-slide {
+		width: 100%;
+		height: 50vh;
+	}
+}
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+	.Photo-slide:before {
+		width: 100%;
+		height: 50%;
+	}
+}
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+	.Photo-slide .bannertextPhoto-slide {
+		width: 50%;
+	}
+	.contentPhoto-slide .bannertextPhoto-slide p {
+		font-size: 2vw;
+	}
+}
+
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+	.contentPhoto-slide {
+		flex-direction: row;
+	}
+	.contentPhoto-slide .imgbannerPhoto-slide {
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 480px) and (orientation: portrait) {
+	.Photo-slide:before {
+		width: 100%;
+		height: 50%;
+	}
+	.contentPhoto-slide {
+		flex-direction: row;
+	}
+	.contentPhoto-slide .imgbannerPhoto-slide {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+	.Photo-slide .bannertextPhoto-slide {
+		width: 100%;
+		max-width: 100%;
+	}
+	.Photo-slide:before {
+		width: 100%;
+		height: 50%;
+	}
+	.contentPhoto-slide {
+		flex-direction: column-reverse;
+	}
+	.contentPhoto-slide .imgbannerPhoto-slide {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+	.Photo-slide .bannertextPhoto-slide {
+		width: 50%;
+		max-width: 50%;
+	}
+	.contentPhoto-slide .bannertextPhoto-slide p {
+		font-size: 1.3vw;
+	}
+}
+
+@media only screen and (min-width: 992px) and (orientation: portrait) {
+	.Photo-slide:before {
+		width: 100%;
+		height: 50%;
+	}
+}
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+}

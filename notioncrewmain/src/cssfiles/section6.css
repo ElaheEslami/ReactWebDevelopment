@@ -1,0 +1,271 @@
+/* .footersection {
+	min-height: 100vh;
+	width: 100%;
+	background: #0b3a42;
+	overflow: auto;
+} */
+.header-scroll h2 {
+	font-size: 3rem;
+	font-weight: 700;
+	text-decoration: uppercase;
+	text-align: center;
+	top: 0;
+	color: #fff;
+}
+.slick-slider {
+	width: 85% !important;
+}
+.container-scroll {
+	width: 85%;
+
+	height: auto;
+
+	white-space: nowrap;
+	margin-bottom: 31%;
+	margin-left: 10%;
+}
+.item {
+	width: 100%;
+	align-content: center;
+}
+.item img {
+	width: inherit;
+}
+.flex-container-scroll {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: auto;
+}
+.flex-item {
+	flex: 0 0 auto;
+}
+
+footer {
+	width: 100%;
+	height: 250px;
+	padding-top: 20px;
+	text-align: center;
+	position: absolute; /*Here's what sticks it*/
+	bottom: 0; /*to the bottom of the body/page*/
+	left: 0; /*and to the left of the body/page.*/
+	z-index: 101;
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.footer .footercontent .footerpart {
+	flex: 1;
+	padding: 2%;
+}
+
+.footer .footercontent .footerpart a {
+	font-size: 1.5rem;
+
+	font-weight: 500;
+	color: inherit;
+	text-decoration: none;
+	color: #1effbc;
+}
+.footer .footercontent .footerpart a:hover {
+	color: #fff;
+}
+
+.footer .footercontent .footerpart p {
+	font-size: 1.5rem;
+	font-weight: 500;
+	font-family: NeueHaasUnicaProHeavy;
+	text-decoration: uppercase;
+	color: inherit;
+	text-decoration: none;
+	color: #1effbc;
+}
+
+.footer .footercontent .footerlink:hover {
+	color: #ffff;
+}
+.footer .footercontent .footerpart social a {
+	font-size: 2vw;
+	font-weight: 700;
+	font-family: NeueHaasUnicaProHeavy;
+	color: inherit;
+	text-decoration: none;
+}
+.footer .footercontent .notion {
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: NeueHaasUnicaProHeavy;
+
+	color: #fff;
+}
+.footer .footercontent .notion a {
+	text-decoration: none;
+	color: inherit;
+}
+.footer .footercontent .notion a:hover {
+	color: rgb(36, 143, 250);
+}
+
+.scmain {
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: auto;
+	justify-content: space-around;
+}
+
+.sctitle {
+	font-size: 4vw;
+}
+
+.scimage {
+	height: 100px;
+	width: 100px;
+	font-size: 25px;
+	background: #115373;
+	margin: 10px;
+	display: inline-block;
+	line-height: 100px;
+}
+
+.scimage-container {
+	vertical-align: middle;
+	display: inline-block;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	width: 50%;
+}
+
+.scprev,
+.scnext {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 100%;
+	cursor: pointer;
+	color: #fff;
+	transition: 0.6s ease;
+}
+
+.scnext {
+	margin-left: 5px;
+}
+
+.scprev {
+	margin-right: 5px;
+}
+
+.scprev:hover,
+.scnext:hover {
+	color: white;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+@media only screen and (min-width: 200px) and (orientation: portrait) {
+	.footersection {
+		margin-top: 2%;
+	}
+	.footer {
+		margin-top: -15%;
+	}
+
+	.footer .footercontent {
+	}
+}
+@media only screen and (min-width: 200px) and (orientation: landscape) {
+	.footersection {
+		margin-top: 0;
+	}
+	.footer {
+		margin-top: 2%;
+		padding: 3%;
+	}
+
+	.footer .footercontent {
+		display: flex;
+	}
+}
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+	.footersection {
+		margin-top: -70%;
+	}
+	.footer {
+		margin-top: -20%;
+	}
+
+	.footer .footercontent {
+	}
+	.footer .footercontent .notion {
+		font-size: 1.2rem;
+	}
+	.footer .footercontent .footerpart social a {
+		font-size: 1.2rem;
+	}
+	.footer .footercontent .footerpart p {
+		font-size: 1.2rem;
+	}
+}
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+	.footersection {
+		margin-top: 10%;
+	}
+}
+
+@media only screen and (min-width: 480px) and (orientation: portrait) {
+	.footersection {
+		margin-top: 5%;
+	}
+	.footer {
+		margin-top: -15%;
+	}
+
+	.footer .footercontent {
+	}
+}
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+	.footersection {
+		margin-top: 4%;
+	}
+	.footerlink {
+		font-size: 1.5vw;
+	}
+	.footer {
+		margin-top: 0%;
+		padding: 0%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+	.footer {
+		margin-top: -15%;
+		padding: 0%;
+	}
+	.footersection {
+		margin-top: -20%;
+	}
+	.footer .footercontent {
+		height: 400px;
+		display: flex;
+	}
+	.footerlink {
+		font-size: 1.5vw;
+	}
+	.footer .footercontent .notion {
+		font-size: 40px;
+	}
+	.footer .footercontent .footerpart social a {
+		font-size: 40px;
+	}
+	.footer .footercontent .footerpart p font {
+		font-size: 25px;
+	}
+}
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+}
+
+@media only screen and (min-width: 992px) and (orientation: portrait) {
+}
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+}

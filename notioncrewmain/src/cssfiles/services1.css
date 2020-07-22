@@ -1,0 +1,215 @@
+.services1card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #1270a3;
+	width: 100%;
+}
+
+.servicesContainer {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 33%;
+	padding: 30px;
+}
+/* .servicesContainer .servicesCard {
+	width: 80%;
+	height: 90vh;
+	margin: 20px;
+	border-radius: 40px;
+	padding: 40px 30px; */
+/* background: ; */
+/* box-shadow: -6px -6px 20px rgba(225, 225, 225, 1),
+		6px 6px 20px rgba(0, 0, 0, 0.1); */
+
+/* .servicesContainer .servicesCard:hover {
+	box-shadow: inset -6px -6px 20px rgba(225, 225, 225, 0.5),
+		inset 6px 6px 20px rgba(0, 0, 0, 0.5);
+} */
+.servicesContainer .servicesCard .servicesimg {
+	position: relative;
+	text-align: center;
+}
+
+.servicesContainer .servicesCard .servicesimg img {
+	max-width: 120px;
+	width: 38%;
+}
+.servicesContainer .servicesCard:hover .servicesimg,
+.servicesContainer .servicesCard:hover .servicesContent {
+	transform: scale(0.98);
+}
+
+.servicesContainer .servicesCard .servicesContent {
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+}
+.servicesContainer .servicesCard .servicesContent h2 {
+	color: #fff;
+	font-weight: 600;
+	font-size: 30px;
+	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
+		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	letter-spacing: 2px;
+}
+.servicesContainer .servicesCard .servicesContent p {
+	color: #fff;
+	font-size: 25px;
+	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
+		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+@media only screen and (min-width: 200px) and (orientation: portrait) {
+	.servicesContainer .servicesCard {
+		height: 82vh;
+	}
+	.services1card {
+		flex-direction: column;
+	}
+	.servicesContainer {
+		width: 100%;
+		margin-top: 4%;
+	}
+
+	.servicesContainer .servicesCard {
+		height: 72%;
+	}
+	.servicesimg img {
+		width: 16% !important;
+	}
+	.servicesContainer .servicesCard {
+		margin: 0;
+	}
+	.servicesContainer .servicesCard {
+		padding: 110px;
+	}
+}
+@media only screen and (min-width: 200px) and (orientation: landscape) {
+}
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+	.servicesContainer .servicesCard {
+		height: 100vh;
+	}
+	.services1card {
+		flex-direction: column;
+	}
+	.servicesContainer {
+		width: 100%;
+		margin-top: -12%;
+		padding: -2px;
+	}
+
+	.servicesContainer .servicesCard {
+		height: 72%;
+	}
+	.servicesimg img {
+		width: 16% !important;
+	}
+	.servicesContainer .servicesCard {
+		margin-bottom: 35px;
+	}
+	.servicesContainer .servicesCard {
+		padding: 3px;
+		padding-bottom: 3px;
+	}
+	.servicesContainer .servicesCard .servicesContent h2 {
+		color: #fff;
+		font-weight: 700;
+		font-size: 15px;
+		/* font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+			Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+			Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+			Noto Color Emoji; */
+		letter-spacing: 2px;
+	}
+	.servicesContainer .servicesCard .servicesContent p {
+		color: #fff;
+		font-size: 16px;
+		/* font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+			Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+			Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+			Noto Color Emoji; */
+	}
+}
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+}
+
+@media only screen and (min-width: 480px) and (orientation: portrait) {
+}
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+	/* .servicesContainer .servicesCard .servicesimg img {
+		width: 26%;
+	}
+	.servicesContainer .servicesCard .servicesContent h2 {
+		font-size: 2vw;
+	}
+	.servicesContainer .servicesCard .servicesContent p {
+		font-size: 1.4vw;
+	}
+	.services1card {
+		flex-direction: row;
+	}
+	.servicesContainer .servicesCard {
+		height: 72vh;
+	}
+	.servicesContainer {
+		margin-top: 35vh;
+	} */
+	.servicesContainer .servicesCard {
+		height: 100vh;
+	}
+	.services1card {
+		flex-direction: column;
+	}
+	.servicesContainer {
+		width: 100%;
+		margin-top: -10%;
+	}
+
+	.servicesContainer .servicesCard {
+		height: 72%;
+	}
+	.servicesimg img {
+		width: 16% !important;
+	}
+	.servicesContainer .servicesCard {
+		margin-bottom: 55px;
+	}
+	.servicesContainer .servicesCard {
+		padding: 130px;
+		padding-bottom: 50px;
+	}
+	.servicesContainer .servicesCard .servicesContent h2 {
+		color: #fff;
+		font-weight: 700;
+		font-size: 25px;
+		/* font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+			Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+			Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+			Noto Color Emoji; */
+		letter-spacing: 2px;
+	}
+	.servicesContainer .servicesCard .servicesContent p {
+		color: #fff;
+		font-size: 25px;
+		/* font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+			Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+			Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+			Noto Color Emoji; */
+	}
+}
+
+@media only screen and (min-width: 992px) and (orientation: portrait) {
+}
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+}

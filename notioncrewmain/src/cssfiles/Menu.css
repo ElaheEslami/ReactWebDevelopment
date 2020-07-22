@@ -1,0 +1,99 @@
+.bm-burger-button {
+	position: absolute;
+	width: 36px;
+	height: 30px;
+	left: 36px;
+	top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+	background: #fff;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+	background: #1effbc;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+	height: 40px;
+	width: 40px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+	background: #fff;
+	/* margin-left: 70px !important; */
+}
+.bm-cross-hover {
+	background: #1effbc;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+	position: fixed;
+	height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+	background: rgb(99, 178, 255);
+	/* padding: 2.5em 1.5em 0; */
+	padding: 50px 100px 0;
+	font-size: 25px;
+	font-weight: 600;
+	overflow: hidden !important;
+	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
+		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
+		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.bm-menu a {
+	color: #fff;
+}
+.bm-menu a:hover,
+.bm-menu a:focus {
+	color: #1effbc;
+}
+element.style {
+	height: 100%;
+	box-sizing: border-box;
+	overflow: hidden !important;
+	position: fixed;
+
+	opacity: 1;
+}
+
+/* Morph shape necessary with bubble or elastic */
+/* .bm-morph-shape {
+	fill: #373a47;
+	fill: red;
+} */
+
+/* Wrapper for item list */
+.bm-item-list {
+	/* color: #b8b7ad; */
+	/* padding: 20px; */
+	overflow: hidden !important;
+}
+
+/* Individual item */
+.bm-item {
+	display: inline-block;
+	overflow: hidden !important;
+	/* padding: 20px; */
+	padding-top: 40px;
+	text-decoration: none;
+}
+
+.bm-item:focus {
+	outline: none;
+}
+/* Styling of overlay */
+/* .bm-overlay {
+	background: rgba(0, 0, 0, 0.3);
+} */

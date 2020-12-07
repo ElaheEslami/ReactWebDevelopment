@@ -35,17 +35,17 @@ class Graphicslide2 extends Component {
 							<ul className="social">
 								<li>
 									<a href="#">
-										<img src="../../facebook.png" alt="" />
+										<img src="/images/facebook.png" alt="" />
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="../../instagram.png" alt="" />
+										<img src="/images/instagram.png" alt="" />
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="../../play-button.png" alt="" />
+										<img src="/images/play-button.png" alt="" />
 									</a>
 								</li>
 							</ul>

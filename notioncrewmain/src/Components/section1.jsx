@@ -40,7 +40,12 @@ class Fullbackground extends Component {
 					<section className="home" id="home">
 						<div className=" home__container bd-grid slider__slide slider__slide--1">
 							<div className="home__img">
-								<img src="agency.svg" alt="" data-speed="-2" class="move" />
+								<img
+									src="/images/agency.svg"
+									alt=""
+									data-speed="-2"
+									class="move"
+								/>
 							</div>
 							<div className="home__data">
 								<h1 className="home__title">

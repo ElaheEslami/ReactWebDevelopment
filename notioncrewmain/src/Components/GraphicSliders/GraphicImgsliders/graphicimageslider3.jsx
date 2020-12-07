@@ -53,9 +53,9 @@ class GraphicImageslide2 extends Component {
 	render() {
 		const toggleOptions = ['useGPURender', 'showNavs', 'showBullets'];
 		const images = [
-			{ url: '/section1.jpg' },
-			{ url: '/section2.jpg' },
-			{ url: 'secton3.jpg' },
+			{ url: '/images//section1.jpg' },
+			{ url: '/images/section2.jpg' },
+			{ url: '/images/secton3.jpg' },
 		];
 		return (
 			<div>

@@ -16,7 +16,7 @@ class Cardteam extends Component {
 							<div className="card-team">
 								<div className="img-card-team">
 									<img
-										src="/Othila-Yuya-Portada-marketingdigital-influencer.jpg"
+										src="/images/Othila-Yuya-Portada-marketingdigital-influencer.jpg"
 										alt=""
 									/>
 								</div>
@@ -34,17 +34,17 @@ class Cardteam extends Component {
 									<ul className="social-card-team">
 										<li>
 											<a href="#">
-												<img src="../../facebook.png" alt="" />
+												<img src="/images/facebook.png" alt="" />
 											</a>
 										</li>
 										<li>
 											<a href="#">
-												<img src="../../instagram.png" alt="" />
+												<img src="/images/instagram.png" alt="" />
 											</a>
 										</li>
 										<li>
 											<a href="#">
-												<img src="../../play-button.png" alt="" />
+												<img src="/images/play-button.png" alt="" />
 											</a>
 										</li>
 									</ul>
@@ -55,7 +55,7 @@ class Cardteam extends Component {
 							<div className="card-team">
 								<div className="img-card-team">
 									<img
-										src="/Othila-Arawanei-Portada-branding-fashion.png"
+										src="/images/Othila-Arawanei-Portada-branding-fashion.png"
 										alt=""
 									/>
 								</div>
@@ -72,17 +72,17 @@ class Cardteam extends Component {
 									<ul className="social-card-team">
 										<li>
 											<a href="#">
-												<img src="../../facebook.png" alt="" />
+												<img src="/images/facebook.png" alt="" />
 											</a>
 										</li>
 										<li>
 											<a href="#">
-												<img src="../../instagram.png" alt="" />
+												<img src="/images/instagram.png" alt="" />
 											</a>
 										</li>
 										<li>
 											<a href="#">
-												<img src="../../play-button.png" alt="" />
+												<img src="/images/play-button.png" alt="" />
 											</a>
 										</li>
 									</ul>
@@ -93,7 +93,7 @@ class Cardteam extends Component {
 							<div className="card-team">
 								<div className="img-card-team">
 									<img
-										src="/Othila-Actitud-Portada-marketingdigital.jpg"
+										src="/images/Othila-Actitud-Portada-marketingdigital.jpg"
 										alt=""
 									/>
 								</div>
@@ -111,17 +111,17 @@ class Cardteam extends Component {
 									<ul className="social-card-team">
 										<li>
 											<a href="#">
-												<img src="../../facebook.png" alt="" />
+												<img src="/images/facebook.png" alt="" />
 											</a>
 										</li>
 										<li>
 											<a href="#">
-												<img src="../../instagram.png" alt="" />
+												<img src="/images/instagram.png" alt="" />
 											</a>
 										</li>
 										<li>
 											<a href="#">
-												<img src="../../play-button.png" alt="" />
+												<img src="/images/play-button.png" alt="" />
 											</a>
 										</li>
 									</ul>

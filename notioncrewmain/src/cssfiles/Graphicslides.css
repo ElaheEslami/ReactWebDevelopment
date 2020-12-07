@@ -11,7 +11,7 @@
 	right: 0;
 	width: 50%;
 	height: 100%;
-	background: rgba(18, 112, 163, 0.85);
+	background: #67b6ce !important;
 	z-index: -2;
 }
 
@@ -25,14 +25,18 @@
 }
 
 .headerGraphic-slides .logo {
-	font-weight: 700;
+	font-weight: 500;
 	text-transform: uppercase;
-	color: #1270a3;
+	color: #060342;
 	text-decoration: none;
-	font-size: 3vw;
+	font-size: 2em;
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
+
 }
 .headerGraphic-slides .logo span {
-	color: #1270a3;
+	color: #060342;
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
+
 }
 
 .contentGraphic-slides {
@@ -47,17 +51,21 @@
 	margin-bottom: 2%;
 }
 .contentGraphic-slides .bannertextGraphic-slides h2 {
-	font-size: 3.5vw;
+	font-size: 2em;
 	text-transform: uppercase;
-	font-weight: 800;
+	font-weight: 600;
 	line-height: 1.2em;
-	color: #222222;
+	color: #0c058b;
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
+
 	margin: 1px;
 }
 .contentGraphic-slides .bannertextGraphic-slides p {
-	font-size: 1.5vw;
-	color: #33333;
+	font-size: 1em;
+	color:  #67b6ce;
 	line-height: 1.8em;
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
+
 	margin: 20px 0;
 }
 
@@ -80,6 +88,8 @@
 	justify-content: space-between;
 	align-items: center;
 	padding-left: 50px 0;
+	filter: invert(1);
+
 }
 .icons .social,
 .icons .controls {
@@ -97,6 +107,8 @@
 	display: inline-block;
 	max-height: 24px;
 	transition: 0.5s ease-in-out;
+	filter: invert(1);
+
 }
 
 .icons .social li:hover img {

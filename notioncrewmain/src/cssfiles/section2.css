@@ -1,21 +1,22 @@
 .cardTeam {
-	background-color: #1270a3;
+	background-color:rgba(255, 192, 203, 0.973);
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
 	justify-content: center;
 	align-items: center;
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
+
 }
 .header-team h2 {
 	text-align: center;
 	font-size: 35px;
 	font-weight: 600;
-	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
-		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 	align-items: center;
 	margin-top: 6vh;
-	color: #fff;
+	color: #060342 !important;
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
+
 }
 
 .card-team-container {
@@ -83,40 +84,34 @@
 	background: linear-gradient(0deg, #0b3a42, transparent);
 } */
 .card-team-container .card-team:nth-child(1) .content-card-team {
-	background: linear-gradient(0deg, #1270a3, transparent);
+	background: linear-gradient(0deg, rgb(195,185,195), transparent);
 }
 .card-team-container .card-team:nth-child(2) .content-card-team {
-	background: linear-gradient(0deg, #2a7eac, transparent);
+	background: linear-gradient(0deg, rgb(195,185,195), transparent);
 }
 .card-team-container .card-team:nth-child(3) .content-card-team {
-	background: linear-gradient(0deg, #418db5, transparent);
+	background: linear-gradient(0deg, rgb(195,185,195), transparent);
 }
 
 .card-team-container .card-team .content-card-team h2 {
 	margin: 0 0 10px;
 	padding: 0;
-	color: #fff;
+	color: #060342 !important;
 	font-size: 20px;
-	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
-		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
 }
 
 .card-team-container .card-team .content-card-team h2 span {
-	color: #ffbb01;
+	color: #fff;
 	font-size: 16px;
-	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
-		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
 }
 .card-team-container .card-team .content-card-team p {
 	margin: 0;
 	padding: 0;
-	color: #fff;
+	color: #060342 !important;
 	font-size: 16px;
-	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
-		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
 }
 .card-team-container .card-team .content-card-team ul {
 	display: flex;
@@ -130,13 +125,15 @@
 }
 
 .card-team-container .card-team .content-card-team ul li a {
-	color: #fff;
+	color: #060342 !important;
 	padding: 0 10px;
 	font-size: 18px;
-	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
-		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	font-family:'Galano Medium', 'Open Sans', sans-serif;
 	transition: 0.5s;
+}
+.card-team-container .card-team .content-card-team .social-card-team  img{
+	filter: invert(1);
+
 }
 
 @media only screen and (min-width: 200px) {
@@ -147,6 +144,7 @@
 		height: 100%;
 		margin-top: -0vh;
 		width: auto;
+
 	}
 
 	.card-team-container .card-team .content-card-team {

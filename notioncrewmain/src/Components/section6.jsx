@@ -61,7 +61,7 @@ class Footer extends React.Component {
 							<div class="item">
 								<img
 									id="my_image"
-									src="https://static.rfstat.com/renderforest/images/v2/logo-homepage/gradient_2.png"
+									src="https://othilacreativa.com/wp-content/themes/othilacreativa/images/about/enterprises/sheryl-rubio.svg"
 								></img>
 							</div>
 						</div>
@@ -69,7 +69,7 @@ class Footer extends React.Component {
 							<div class="item">
 								<img
 									id="my_image"
-									src="https://static.rfstat.com/renderforest/images/v2/logo-homepage/gradient_2.png"
+									src="https://othilacreativa.com/wp-content/themes/othilacreativa/images/about/enterprises/teresuch.svg"
 								></img>
 							</div>
 						</div>
@@ -77,7 +77,7 @@ class Footer extends React.Component {
 							<div class="item">
 								<img
 									id="my_image"
-									src="https://static.rfstat.com/renderforest/images/v2/logo-homepage/gradient_2.png"
+									src="https://othilacreativa.com/wp-content/themes/othilacreativa/images/about/enterprises/sheryl-rubio.svg"
 								></img>
 							</div>
 						</div>
@@ -85,7 +85,7 @@ class Footer extends React.Component {
 							<div class="item">
 								<img
 									id="my_image"
-									src="https://static.rfstat.com/renderforest/images/v2/logo-homepage/gradient_2.png"
+									src="https://othilacreativa.com/wp-content/themes/othilacreativa/images/about/enterprises/teresuch.svg"
 								></img>
 							</div>
 						</div>
@@ -93,7 +93,7 @@ class Footer extends React.Component {
 							<div class="item">
 								<img
 									id="my_image"
-									src="https://static.rfstat.com/renderforest/images/v2/logo-homepage/gradient_2.png"
+									src="https://othilacreativa.com/wp-content/themes/othilacreativa/images/about/enterprises/sheryl-rubio.svg"
 								></img>
 							</div>
 						</div>
@@ -101,7 +101,7 @@ class Footer extends React.Component {
 							<div class="item">
 								<img
 									id="my_image"
-									src="https://static.rfstat.com/renderforest/images/v2/logo-homepage/gradient_2.png"
+									src="https://othilacreativa.com/wp-content/themes/othilacreativa/images/about/enterprises/teresuch.svg"
 								></img>
 							</div>
 						</div>
@@ -109,7 +109,7 @@ class Footer extends React.Component {
 							<div class="item">
 								<img
 									id="my_image"
-									src="https://static.rfstat.com/renderforest/images/v2/logo-homepage/gradient_2.png"
+									src="https://othilacreativa.com/wp-content/themes/othilacreativa/images/about/enterprises/sheryl-rubio.svg"
 								></img>
 							</div>
 						</div>

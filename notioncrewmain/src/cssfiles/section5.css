@@ -3,8 +3,12 @@
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background: #115373;
+	/* background: #115373; */
+	/* background:#060342; */
+	background:  #060342 ;
 	/* background: linear-gradient(#5680e9, #84ceeb, #5ab9ea, #c1c8e4, #8860d0); */
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
+
 }
 
 .container5 {
@@ -15,10 +19,9 @@
 .container5 h2 {
 	width: 100%;
 	color: white;
-	font-size: 3rem;
-	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
-		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	font-size: 1.5rem;
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
+
 	text-align: center;
 	/* margin-bottom: 10px; */
 	margin-top: 10px;
@@ -44,7 +47,7 @@
 	position: relative;
 	width: 100%;
 	height: 40px;
-	color: #1270a3;
+	color:  rgb(195,185,195);
 }
 .container5 .row100 .inputbox input,
 .container5 .row100 .inputbox.textarea textarea {
@@ -55,10 +58,9 @@
 	box-shadow: none;
 	border: none;
 	outline: none;
-	font-size: 1rem;
-	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
-		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	font-size: .5rem;
+	font-family:'Galano Medium', 'Open Sans', sans-serif;
+
 	padding: 0 10px;
 	z-index: 1;
 	color: white;
@@ -69,10 +71,9 @@
 	top: 0;
 	left: 0;
 	line-height: 40px;
-	font-size: 1rem;
-	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
-		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	font-size: .5rem;
+	font-family:'Galano Medium', 'Open Sans', sans-serif;
+
 	padding: 0 18px;
 	display: block;
 	transition: 0.5s;
@@ -92,7 +93,7 @@
 	display: block;
 	width: 100%;
 	height: 2px;
-	background: #1270a3;
+	background: rgb(195,185,195);
 	transition: 0.5s;
 	border-radius: 2px;
 	pointer-events: none;
@@ -130,16 +131,15 @@
 	padding: 7px 35px;
 	cursor: pointer;
 	outline: none;
-	background: #1270a3;
+	background:  rgb(195,185,195);
 	color: #fff;
 	font-size: 18px;
-	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
-		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
+
 	border-radius: 2px;
 }
 .submit:hover {
-	background: #4ea9da;
+	background:  rgb(238, 99, 238);
 }
 @media only screen and (min-width: 200px) and (orientation: portrait) {
 }
@@ -151,10 +151,8 @@
 		width: 100%;
 		color: white;
 		font-size: 2rem;
-		font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-			Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
-			Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
-			Noto Color Emoji;
+		font-family: 'Galano Medium', 'Open Sans', sans-serif;
+
 		text-align: center;
 		/* margin-bottom: 10px; */
 		margin-top: 10px;
@@ -186,13 +184,11 @@
 		padding: 15px 35px;
 		cursor: pointer;
 		outline: none;
-		background: #1270a3;
+		background:  rgb(219, 84, 219);
 		color: #fff;
 		font-size: 28px;
-		font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-			Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
-			Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
-			Noto Color Emoji;
+		font-family: 'Galano Medium', 'Open Sans', sans-serif;
+
 		border-radius: 2px;
 	}
 }
@@ -211,13 +207,11 @@
 		padding: 10px 45px;
 		cursor: pointer;
 		outline: none;
-		background: #1270a3;
+		background:  rgb(230, 112, 230);
 		color: #fff;
 		font-size: 18px;
-		font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-			Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
-			Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
-			Noto Color Emoji;
+		font-family: 'Galano Medium', 'Open Sans', sans-serif;
+
 		border-radius: 2px;
 	}
 }

@@ -2,7 +2,7 @@ import React, { useRef, Component } from 'react';
 import { motion } from 'framer-motion';
 import MyHeader from './stickyheader';
 import Slide from 'react-reveal/Slide';
-import '../cssfiles/section1.css';
+import '../cssfiles/section1new.css';
 import Menu2 from './menu';
 class Fullbackground extends Component {
 	constructor(props) {
@@ -12,42 +12,55 @@ class Fullbackground extends Component {
 	render() {
 		return (
 			<>
-				<section className="background">
-					<div className="fullvideo">
-						<div className="header">
-							<Menu2 />
-							{/* <ul id="menu">
-								<li class="active" active data-menuanchor="services" active>
-									<a href="#services">Services</a>
-								</li>
-								<li id="line" data-menuanchor="graphics">
-									<a href="#graphics">Projects</a>
-								</li>
+				<section>
+					<header class="l-header">
+						<Menu2 />
+						{/* <nav class="nav bd-grid"> */}
 
-								<li id="line2">
-									<a href="#contacts" data-menuanchor="contacts">
-										Contacts
-									</a>
-								</li>
-							</ul> */}
-						</div>
-						{/* <video src="../../background.mp4" autoPlay muted loop></video> */}
-						<div className="videotext">
-							<h1>NotionCrew</h1>
-							<div className="videotext2">
-								<p>
-									<span>
-										Notioncrew Creative Agency was founded in 2018 by an
-										experienced and <br /> professional team,Working in various
-										Visual fields . Our main strenght point
-										<br />
-										is our ability in Visual work Through this relatively short
-										period
-									</span>
+						{/* <div></div>
+
+							<div class="nav__toggle" id="nav-toggle">
+								<i class="bx bx-menu"></i>
+							</div>
+							<div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="page2.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="page2.html" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="page2.html" class="nav__link">Contact</a></li>
+                </ul>
+            </div> */}
+						{/* </nav> */}
+					</header>
+
+					<section className="home" id="home">
+						<div className=" home__container bd-grid slider__slide slider__slide--1">
+							<div className="home__img">
+								<img src="agency.svg" alt="" data-speed="-2" class="move" />
+							</div>
+							<div className="home__data">
+								<h1 className="home__title">
+									we canned
+									<br />a feeling
+								</h1>
+								<p className="home__description">
+									we're just here to help people <br /> feel calm, focused,{' '}
+									<br />
+									and creative despite the world around them <br />
 								</p>
+								<a
+									href="../notioncrewmain/public/index.html"
+									className="home__button"
+								>
+									Get Started
+								</a>
 							</div>
 						</div>
-					</div>
+					</section>
 				</section>
 			</>
 		);

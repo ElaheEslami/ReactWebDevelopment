@@ -8,18 +8,20 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-	background: #fff;
+	background: #C1576A;
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-	background: #1effbc;
+	background: #f8718a;
+
 }
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
 	height: 40px;
 	width: 40px;
+	color: black;
 }
 
 /* Color/shape of close button cross */
@@ -28,7 +30,7 @@
 	/* margin-left: 70px !important; */
 }
 .bm-cross-hover {
-	background: #1effbc;
+	background: #fff;
 }
 
 /*
@@ -42,29 +44,37 @@
 
 /* General sidebar styles */
 .bm-menu {
-	background: rgb(99, 178, 255);
+	background:  #b5e1e3;
+	filter: blur(.4px);
+  -webkit-filter: blur(.4px);
 	/* padding: 2.5em 1.5em 0; */
 	padding: 50px 100px 0;
 	font-size: 25px;
 	font-weight: 600;
 	overflow: hidden !important;
-	font-family: Sharp Grotesk Web, system-ui, -apple-system, Segoe UI, Roboto,
-		Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
-		Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	font-family: 'Galano Medium', 'Open Sans', sans-serif;
+	z-index: -100;
 }
 .bm-menu a {
 	color: #fff;
+	z-index: 2;
+	opacity: 3;
+	position: relative;
+	text-decoration: none;
 }
 .bm-menu a:hover,
 .bm-menu a:focus {
-	color: #1effbc;
+	
+}
+.bm-menu a:hover {
+	text-decoration: underline;
+	color: #f8718a;
 }
 element.style {
 	height: 100%;
 	box-sizing: border-box;
 	overflow: hidden !important;
 	position: fixed;
-
 	opacity: 1;
 }
 

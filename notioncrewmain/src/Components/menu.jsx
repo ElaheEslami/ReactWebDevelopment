@@ -37,26 +37,32 @@ class Menu2 extends React.Component {
 				>
 					<a
 						onClick={() => this.closeMenu()}
-						data-menuanchor="services"
-						href="#services"
-					>
-						Services
-					</a>
-					<a
-						onClick={() => this.closeMenu()}
-						data-menuanchor="graphics"
-						href="#graphics"
+						data-menuanchor="Projects"
+						href="#Projects"
 					>
 						Projects
 					</a>
 					<a
 						onClick={() => this.closeMenu()}
-						data-menuanchor="contacts"
-						href="#contacts"
+						data-menuanchor="ContactUs"
+						href="#ContactUs"
 					>
-						Contacts
+						Contact
 					</a>
-					<a onClick={() => this.closeMenu()}>Settings</a>
+					<a
+						onClick={() => this.closeMenu()}
+						data-menuanchor="OurTeam"
+						href="#OurTeam"
+					>
+						Team
+					</a>
+					<a
+						onClick={() => this.closeMenu()}
+						data-menuanchor="Clients"
+						href="#Clients"
+					>
+						Clients
+					</a>
 				</Menu>
 				{/* <CustomIcon onClick={() => this.toggleMenu()} /> */}
 			</div>

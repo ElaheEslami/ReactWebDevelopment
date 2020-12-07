@@ -19,18 +19,16 @@ class Projectsvideo extends Component {
 			<>
 				<section className="VFXbanner">
 					<div className="projectsVFXBanner">
-						<img src="/video.svg" alt="" />
+						<img src="/agency.svg" alt="" />
 
 						<div className="VFXContent">
-							
-						
-																				        <Fade bottom>
-         <span className="text1">Our projects</span>
-        </Fade>
-							
-							        <Fade top>
-	<span className="text2">VFX & VIDEO</span>
-        </Fade>
+							<Fade bottom>
+								<span className="text1">Our projects</span>
+							</Fade>
+
+							<Fade top>
+								<span className="text2">VFX & VIDEO</span>
+							</Fade>
 						</div>
 					</div>
 				</section>

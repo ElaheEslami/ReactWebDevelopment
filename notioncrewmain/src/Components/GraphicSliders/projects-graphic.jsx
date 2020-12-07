@@ -18,7 +18,7 @@ class ProjectsGraphic extends Component {
 			<>
 				<section className="graphicbanner" id="projects" data-anchor="projects">
 					<div className="projectsGraphicBanner">
-						<img src="/graphic.svg" alt="" />
+						<img src="/project2.svg" alt="" />
 						<div className="graphicContent">
 							<Fade bottom>
 								<span className="text1">Our projects</span>

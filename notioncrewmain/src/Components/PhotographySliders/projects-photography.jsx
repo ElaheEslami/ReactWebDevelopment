@@ -19,17 +19,15 @@ class Projectsphotography extends Component {
 			<>
 				<section className="PHOTObanner">
 					<div className="projectsPHOTOBanner">
-						<img src="/photography.svg" alt="" />
+						<img src="/project.svg" alt="" />
 						<div className="PHOTOContent">
-						
-							
-													        <Fade bottom>
-          	<span className="text1">Our projects</span>
-        </Fade>
-							
-							        <Fade top>
-    <span className="text2">photography</span>
-        </Fade>
+							<Fade bottom>
+								<span className="text1">Our projects</span>
+							</Fade>
+
+							<Fade top>
+								<span className="text2">photography</span>
+							</Fade>
 						</div>
 					</div>
 				</section>

@@ -12,21 +12,17 @@ class Graphicslide3 extends Component {
 			<>
 				<section className="Graphic-slides">
 					<div className="containerGraphic-slides">
-						<header className="headerGraphic-slides">
-							<a href="#" className="logo">
-								Notion <span>Crew</span>
-							</a>
-						</header>
+						<header className="headerGraphic-slides"></header>
 						<div className="contentGraphic-slides">
 							<div className="bannertextGraphic-slides">
 								<Slide left>
 									<div>
 										<h2>a complete website</h2>
 										<p>
-											The alliance of the passion for beer from Microbrasserie À
-											la Fût and our passion for the Web allowed us to create a
-											digital work of art that reflects the western atmosphere
-											of
+											The alliance of the passion for beer from <br />
+											Microbrasserie À la Fût and our passion for the Web <br />
+											allowed us to create a digital work of <br /> art that
+											reflects
 										</p>
 									</div>
 								</Slide>

@@ -19,8 +19,8 @@ class Graphicslide2 extends Component {
 									<div>
 										<h2>a complete website</h2>
 										<p>
-											The alliance of the passion for beer from <br />{' '}
-											Microbrasserie À la Fût and our passion for the Web <br />{' '}
+											The alliance of the passion for beer from <br />
+											Microbrasserie À la Fût and our passion for the Web <br />
 											allowed us to create a digital work of <br /> art that
 											reflects
 										</p>
